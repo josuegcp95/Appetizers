@@ -38,6 +38,7 @@ struct AccountView: View {
                         .keyboardType(.emailAddress)
                         .autocapitalization(.none)
                         .autocorrectionDisabled()
+                    
                     DatePicker("Birthday",
                                selection: $viewModel.user.birthdate,
                                in: Date().oneHundredYearAgo...Date().eighteenYearAgo,
@@ -57,6 +58,7 @@ struct AccountView: View {
                 .toggleStyle(SwitchToggleStyle(tint: .brandPrimary))
             }
             .navigationTitle("🫥 Account")
+            
             .toolbar {
                 ToolbarItemGroup(placement: .keyboard) {
                     Button("Dismiss") {

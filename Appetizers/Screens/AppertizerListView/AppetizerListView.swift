@@ -20,10 +20,8 @@ struct AppetizerListView: View {
                             viewModel.selectedAppetizer = appetizer
                             viewModel.isShowingDetail = true
                         }
-//                        .listRowSeparator(.hidden)
-//                        .listRowSeparatorTint(.pink)
                 }
-
+                
                 .navigationTitle("🍟 Appetizers")
                 .listStyle(.plain)
                 .disabled(viewModel.isShowingDetail)

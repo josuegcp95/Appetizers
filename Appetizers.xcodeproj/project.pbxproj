@@ -95,12 +95,12 @@
 		334EB6B32A25398F00A2DF1D /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				334EB6B42A25398F00A2DF1D /* AppetizersApp.swift */,
+				334EB6B82A25399100A2DF1D /* Assets.xcassets */,
 				336EF7272A2C23F2006D698B /* Model */,
 				336EF7282A2C244B006D698B /* View */,
 				336EF71F2A2C2312006D698B /* Screens */,
 				336EF7232A2C237F006D698B /* Utilities */,
-				334EB6B42A25398F00A2DF1D /* AppetizersApp.swift */,
-				334EB6B82A25399100A2DF1D /* Assets.xcassets */,
 				334EB6BA2A25399100A2DF1D /* Preview Content */,
 			);
 			path = Appetizers;
@@ -202,12 +202,12 @@
 		336EF7282A2C244B006D698B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				336EF7402A350E30006D698B /* CustomModifiers.swift */,
 				336EF7292A2C2452006D698B /* UIKit Components */,
 				336EF72A2A2C2467006D698B /* Cells */,
 				336EF72B2A2C246E006D698B /* Image */,
 				336EF72E2A317D4B006D698B /* Buttons */,
 				336EF7392A3418FA006D698B /* Empty States */,
-				336EF7402A350E30006D698B /* CustomModifiers.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -484,6 +484,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,6 +518,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
